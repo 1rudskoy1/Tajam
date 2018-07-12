@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700,900|Roboto:300,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="web-fonts-with-css/fonts">
 	<title>My Portfolio</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
 			<div class="row">
 				<nav class="navigation col-md-12">
 					<ul class="navigation__items ">
-						<li class="logotipe col-md-6">
+						<li class="logotipe col-md-7">
 							<a  href="">
 								<img src="img/logotipe.png" alt="">
 							</a>
@@ -31,9 +33,6 @@
 						</li>
 						<li class="navigation__items_item col-md-1">
 							<a class="link" href="">teams</a>
-						</li>
-						<li class=" navigation__items_item col-md-1">
-							<a class="link" href="">reviews</a>
 						</li>
 						<li class=" navigation__items_item col-md-1">
 							<a class="link" href="">contact</a>
@@ -170,25 +169,64 @@
 							Become part of our dream team, let’s join us !
 						</p>
 						<a class="button " href="#">We are hiring</a>
-					</div>
-					
-					
+					</div>	
 			</div>
 		</div>
 	</section>
-	<section class="give">
+	<section class="news">
 		<div class="container">
 			<div class="row">
-				<h2 class="head col-md-12">Give us a good news</h2>
-				<form action="" class="form col-md-12">
-					<input type="text" class="form__name col-md-6" placeholder="Name">
-					<input type="email" class="form__email col-md-6" placeholder="Email">
-					<input type="text" class="form__subject col-md-6" placeholder="subject">
-					 <textarea class="form__massage col-md-6" placeholder="Your Massage"></textarea>
-					 <button class="button col-md-6">Send</button>
-				</form>
+				<div class="give col-md-6">
+					<h2 class="head give__head ">Give us a good news</h2>
+					<form action="" class="give__form col-md-12" style="text-align: left;">
+						<input type="text" class="give__form_name col-md-12" placeholder="Name">
+						<input type="email" class="give__form_email col-md-12" placeholder="Email">
+						<input type="text" class="give__form_subject col-md-12" placeholder="subject">
+						 <textarea class="give__form_massage col-md-12" placeholder="Your Massage"></textarea>
+						 <button class="button col-md-3">Submit</button>
+					</form>
+				</div>	
+				<div class="shift col-md-1"></div>	
+				<div class="client col-md-5">
+					<h2 class="head give__head">OUR HAPPY CLIENT</h2>
+						<img class="client__left col-md-4" src="img/left.png" alt="">	
+						<div class="shift col-md-1"></div>	
+						<img class="client__right col-md-4" src="img/right.png" alt="">
+				</div>
 			</div>
 		</div>
 	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer__logo col-md-4">
+					<img src="img/logotipe.png" alt="">
+					<p class="footer__description">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+				</div>
+				<div class="studio col-md-4">
+					<h4 class="footer__head">Our stydio</h4>
+					<p class="footer__description">
+						<i></i>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+						11480 - Indonesia
+					</p>
+					<p class="footer__description">
+						<i></i>(+62) 21-2224 3333
+					</p>
+				</div>
+				<div class="touch col-md-4">
+					<h4 class="footer__head" style="margin-bottom: 29px;">Stay in touch</h4>
+					<input class="touch__search col-md-7" type="text" placeholder="Subscribe our newsletter">
+					<button class="touch__button col-md-2"><i>g</i></button>
+					<div class="touch__social">
+						<div class="touch__social_facebook"><i>fsdsg</i></div>
+						<div class="touch__social_twitter"><i>fsdsg</i></div>
+						<div class="touch__social_instagram"><i>fsdsg</i></div>
+						<div class="touch__social_google"><i>fsdsg</i></div>
+						<div class="touch__social_youtube"><i>fsdsg</i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
