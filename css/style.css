@@ -222,3 +222,16 @@ li{
 	color: #9e97b0;
 	height: 49px;
 }
+.touch__social_icon{
+	float: left;
+	color: white;
+	margin-top: 15px;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px 1px;
+	margin-left: 20px;
+}
+.touch__social_icon:first-child{
+	margin-left: 0px;
+	padding: 10px 2px;
+}
