@@ -185,6 +185,7 @@ li{
 
 .client__left{
 	float: left;
+	height: 370px;
 }
 .client__right{
     height: 370px;
@@ -194,7 +195,7 @@ li{
 	margin-top: 18px;
 }
 #footer{
-	background:url(../img/footer.png);
+	background:url(../img/footer.png) no-repeat center /cover;
 	padding: 90px  0 40px 0;
 }
 .footer__head{
@@ -222,7 +223,10 @@ li{
 	color: #9e97b0;
 	height: 49px;
 }
-.touch__social_icon{
+.social{
+	margin: 12px 380px;
+}
+.social__icon{
 	float: left;
 	color: white;
 	margin-top: 15px;
@@ -231,7 +235,93 @@ li{
 	padding: 10px 1px;
 	margin-left: 20px;
 }
-.touch__social_icon:first-child{
-	margin-left: 0px;
-	padding: 10px 2px;
+@media screen and (max-width: 1199px){
+	.Team__person{
+		margin: 0 0 50px 10px;
+	}
+	.social{
+		margin: 12px 270px;
+	}
+}
+
+@media screen and (max-width: 992px ){
+	.link{
+		display: none;
+	}
+	.navigation{
+		margin-bottom: 100px;
+	}
+	.header{
+		height: 520px;
+	}
+	.story__img{
+		padding: 0;
+	}
+	.Team__person{
+		width: 320px;
+	}
+	.Team__person_photo{
+		width: 100%;
+	}
+	.social{
+		margin: 12px 170px;
+	}	
+	.client__left{
+		height: 320px;
+	}
+	.client__right{
+		height: 320px;
+	}
+}
+@media screen and (max-width: 768px){
+	.navigation{
+		margin-bottom: 10px;
+	}
+	.main__description{
+		display: none;
+	}
+	.main__head{
+		margin-bottom:50px;
+	}
+	.under{
+		display: none;
+	}
+	.header{
+		height:380px;
+	}
+	.story__img{
+		text-align: center;
+    	margin-bottom: 50px;
+	}
+	.Team__person{
+		width: auto;
+	}
+	.news{
+		text-align: center;
+	}
+	.give__head{
+		text-align: center;
+	}
+	.client{
+		display:none;
+	}
+	.social{
+		margin: 22px 100px 0 100px;
+	}
+	
+}
+@media screen and (max-width: 576px){
+	.header{
+		height: 400px;
+	}
+	.Team{
+		padding: 0 18px;
+	}
+	.Team__person{
+		width: 480px;
+		margin: 22px auto;
+	}
+	.social{
+		margin: 0 auto;
+	}
 }
