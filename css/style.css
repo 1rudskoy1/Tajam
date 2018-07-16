@@ -68,6 +68,11 @@ li{
 	border-radius: 3px;
 	text-transform: uppercase;
 }
+.button:hover{
+	background: #00e0d0;
+	color: white;
+	text-decoration: none;
+}
 .story{
 	margin-top: 75px;
 	padding-bottom: 75px;
