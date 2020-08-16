@@ -240,6 +240,10 @@ li{
 	padding: 10px 1px;
 	margin-left: 20px;
 }
+.social__icon:hover{
+	background: #000;
+	cursor: pointer;
+}
 @media screen and (max-width: 1199px){
 	.Team__person{
 		margin: 0 0 50px 10px;
