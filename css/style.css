@@ -228,6 +228,9 @@ li{
 	color: #9e97b0;
 	height: 49px;
 }
+.social{
+	margin: 12px auto;
+}
 .social__icon{
 	float: left;
 	color: white;
@@ -244,9 +247,6 @@ li{
 @media screen and (max-width: 1199px){
 	.Team__person{
 		margin: 0 0 50px 10px;
-	}
-	.social{
-		margin: 12px auto;
 	}
 }
 
