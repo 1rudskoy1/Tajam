@@ -249,12 +249,13 @@ li{
 		margin: 0 0 50px 10px;
 	}
 	.social{
-		margin: 12px 270px;
+		margin: 12px auto;
 	}
 }
 
 @media screen and (max-width: 992px ){
 	.link{
+
 		display: none;
 	}
 	.navigation{
@@ -271,9 +272,6 @@ li{
 	}
 	.Team__person_photo{
 		width: 100%;
-	}
-	.social{
-		margin: 12px 170px;
 	}	
 	.client__left{
 		height: 320px;
@@ -313,9 +311,6 @@ li{
 	}
 	.client{
 		display:none;
-	}
-	.social{
-		margin: 22px 100px 0 100px;
 	}
 	
 }
